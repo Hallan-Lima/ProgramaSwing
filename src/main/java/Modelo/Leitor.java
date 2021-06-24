@@ -17,26 +17,34 @@ public class Leitor {
             InputStreamReader input = new InputStreamReader(arquivo);               //vai ler o arquivo
             BufferedReader      br  = new BufferedReader(input);                    //ele modifica a leitura (le linha a linha)
 
-            String linha, a;
+            String linha, a="a", v2=null,v3=null,v4=null,v1=null;
             int b;
 
+            linha = br.readLine();                      //esta lendo cada linha (cabeçalho)
             do{
 
-                linha = br.readLine();                  //esta lendo cada linha
-                if (linha != null) {
-                
-                    System.out.println("-----");
-                    String[] palavras = linha.split(";");
-                    for (int i=0; i<1; i++){
-
-                        System.out.println("Palavras lida ="+palavras[1]);
-                        a = palavras[1];
-                        b = Integer.parseInt(a);
-
-                        System.out.println("valor de a ="+b);
-                       
-                    }
+                linha = br.readLine();                  //pula para a segunda linha
+                if (linha != null) {                    // fazer tratamento dos dados
                     
+                    String[] vect = linha.split(";");
+
+                    v1 = vect[0];
+                    v2 = vect[1];
+                    v3 = vect[2];
+                    v4 = vect[3];
+                    
+                    // 
+                    //v1 = vect[0];
+                    //
+                    //if (v1 == "nome") {
+                    //    v2 = vect[1];
+                    //    v3 = vect[2];
+                    //    v4 = vect[3];
+                    //}
+                    
+                    System.out.println(linha);
+                    System.out.println(v1+" - "+v2+" - "+v3+" - "+v4);
+                    System.out.println("---------");
 
                 }
 
