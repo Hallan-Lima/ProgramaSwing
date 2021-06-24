@@ -1,3 +1,8 @@
+
+import Modelo.ModeloJFrame1;
+
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -112,14 +117,14 @@ public class ProgramaSwing extends javax.swing.JFrame {
             }
         });
 
-        btnClick7.setText("Projeto 1");
+        btnClick7.setText("Projeto 8");
         btnClick7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnClick7ActionPerformed(evt);
             }
         });
 
-        btnClick8.setText("Projeto 1");
+        btnClick8.setText("Projeto 9");
         btnClick8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnClick8ActionPerformed(evt);
@@ -472,15 +477,25 @@ public class ProgramaSwing extends javax.swing.JFrame {
     }//GEN-LAST:event_btnClick6ActionPerformed
 
     private void btnClick7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClick7ActionPerformed
-        // TODO add your handling code here:
+
+        JFrame1 jFrame = new JFrame1();
+        jFrame.setLocationRelativeTo(null);
+        jFrame.setVisible(true);
+        
     }//GEN-LAST:event_btnClick7ActionPerformed
 
     private void btnClick8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClick8ActionPerformed
-        // TODO add your handling code here:
+
+        Janela8 janela = new Janela8();
+        janela.setLocationRelativeTo(null);
+        janela.setVisible(true);
+
     }//GEN-LAST:event_btnClick8ActionPerformed
 
     private void btnClick9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClick9ActionPerformed
-        // TODO add your handling code here:
+        JFrame2 frame = new JFrame2();
+       frame.msg();
+        
     }//GEN-LAST:event_btnClick9ActionPerformed
 
     private void btnClick10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClick10ActionPerformed

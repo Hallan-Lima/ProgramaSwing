@@ -227,7 +227,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnClick7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Projeto 1"/>
+        <Property name="text" type="java.lang.String" value="Projeto 8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClick7ActionPerformed"/>
@@ -235,7 +235,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnClick8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Projeto 1"/>
+        <Property name="text" type="java.lang.String" value="Projeto 9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClick8ActionPerformed"/>
